@@ -1,0 +1,110 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+// The main method must be in a class named "Main".
+  public class Main {
+    public static void main(String[] args) {
+// 1. imprimir nombre y edad 
+        String name = "sara anzola";
+        int edad = 16;
+        System.out.println("Primer punto.");
+        System.out.println("Nombre: " + name);
+        System.out.println("Edad: " + edad);
+        // 2. calcular la suma de dos números 
+        int numero1 = 20;
+        int numero2 = 6;
+        int suma = numero1 + numero2;
+        System.out.println("Segundo punto.");
+        System.out.println("suma: " + suma);
+        // 3. restar dos números ingresados por el usuario
+        int resta = numero1 - numero2;
+        System.out.println("Tercer punto.");
+        System.out.println("resta: " + resta);
+        // 4. multiplicar dos números y mostrar el resultado
+        int multiplicación = numero1 * numero2;
+        System.out.println("Cuarto punto.");
+        System.out.println("multiplicación: " + multiplicación);
+        // 5. dividir dos números y mostrar el cociente
+        double división = numero1 / numero2;
+        System.out.println("Quinto punto");
+        System.out.println("división: " + división);
+        // 6. calcular el cuadrado de un numero
+        int numero = 8;
+        int cuadrado = numero * numero;
+        System.out.println("Sexto punto.");
+        System.out.println("el cuadrado de " + numero + " es:" + cuadrado);
+        // 7. convertir grados celsius a fahrenheit
+        double celsius = 15;
+        double fahrenheit = (celsius * 9 / 5) + 32;
+        System.out.println("Septimo punto.");
+        System.out.println(celsius + "°C = " + fahrenheit + "°F");
+        //8. calcular el perimetro de un rectangulo
+        double largo = 20;
+        double ancho = 10;
+        double perímetro = largo + largo + ancho + ancho;
+        System.out.println("Octavo punto.");
+        System.out.println("el perímetro del rectangulo es: "  + perímetro);
+        //9. calcular el área de un circulo.
+        double radio = 14;
+        double área = (3.14)* radio * radio;
+        System.out.println("Noveno punto.");
+        System.out.println("el área del circulo es : " + área);   
+        //10. convertir años en días.
+        int años = 2;
+        int dias = años * 365;
+        System.out.println("Decimo punto.");
+        System.out.println("dos años son :" + dias);
+            
+  //11. calcular el doble y el triple de un numero ingresado
+        int numeroA = 17;
+        int doble = numeroA * 2;
+        int triple = numeroA * 3;
+        System.out.println("Undecimo punto.");
+        System.out.println("numero 17");
+        System.out.println("el doble es: " + doble);
+        System.out.println("el triple es: " + triple);
+        //12. convertir kilómetros a metros y a centimetros
+        double kilometros = 16;
+        double metros = kilometros * 1000;
+        double centímetros = kilometros * 100000;
+        System.out.println("Doceavo punto");
+        System.out.println("kilometros: " + kilometros);
+        System.out.println("metros: " + metros);
+        System.out.println("centimetros: " + centímetros);
+
+//13. calcular el area y el perimetro de un cuadrado.
+        double lado = 30;
+        double perímetroo = 4 * lado;
+        double áreaa = lado * lado;
+        System.out.println("Decimotercer punto.");
+        System.out.println("el perímetro del cuadrado es: " + perímetroo);
+        System.out.println("el área del cuadrado es: " + áreaa);
+
+//14. calcular el volumen de un cubo
+        double ladito = 9;
+        double volumen = ladito * ladito * ladito;
+        System.out.println("Decimocuarto punto.");
+        System.out.println("el volumen del cubo es: " + volumen);
+        //15. calcular el volumen de una esfera.
+        double radioo = 3;
+        double lumen = (4.0 / 3.0) * 31416 * radioo * radioo * radioo;
+        System.out.println("Decimoquinto punto.");
+        System.out.println("volumen de la esfera: " + lumen);
+        //16. sumar los tres primeros numeros naturales
+        int numero7 = 1;
+        int numero8 = 2;
+        int numero9 = 3;
+        int suuma = numero7 + numero8 + numero9;
+        System.out.println("Decimosexto punto");
+        System.out.println("la suma de estos numeros es: " + suuma);
+
+//17. calcular el descuento aplicado a una compra
+        System.out.println("Dcimoseptimo punto.");
+        System.out.println("precio: " + (85000 - (85000 * 20 / 100)));
+        
+        //18. calcula la propina a dejar en un restaurante
+        System.out.println("Decimooctavo punto.");
+        System.out.println("propina: " + (42000 +(42000 * 10 / 100)));
+    }
+}
