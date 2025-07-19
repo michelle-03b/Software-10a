@@ -1,0 +1,130 @@
+System.out.println("Primer Punto");
+    System.out.println("Ingresar el nombre y la edad");
+    String name= "sarah valentina" ;
+    int edad= 15;
+    System.out.println(name) ;
+    System.out.println(edad) ;
+    
+    System.out.println("Segundo punto");
+    System.out.println("Calcular la suma de dos numeros");
+    int numero1= 8;
+    int numero2= 3;
+    System.out.println(numero1+numero2);
+    
+    System.out.println("Tercer punto");
+    System.out.println("Calcular la resta de dos numeros");
+    int numero3=6;
+    int numero4=4;
+    System.out.println(numero3-numero4);
+    
+    System.out.println("Cuarto Punto");
+    System.out.println("Calcular la mutiplicacion de dos numeros");
+    int numero5= 7;
+    int numero6= 9;  
+    System.out.println(numero5*numero6);
+    
+    System.out.println("Quinto Punto");
+    System.out.println("Calcular la division de dos numeros");
+    int numero7=21;
+    int numero8=3;
+    System.out.println(numero7/numero8);
+    
+    int A=6 ;
+    int B=6 ;
+    int C=6*6 ;
+    System.out.println("Sexto Punto");
+    System.out.println("Cuadrado de un numero");
+    System.out.println(+C);
+  
+   
+    int Mi=28 ;
+    int Ma=9;
+    int Me=5;
+    int Mo=32;
+    int MoMo=Mi*Ma/Me+Mo;
+    System.out.println("Septimo punto:");
+    System.out.println("Calcular grados centigrados a farenheit");
+    System.out.println(+MoMo+"º");
+    
+    int mike=12 ;
+    int once=18 ;
+    int mikece=mike+once+mike+once;
+    System.out.println("Octavo Punto :"+mikece+"cm");
+    
+    int no=2 ;
+    double j= 3.14 ;
+    int ta=4 ;
+    System.out.println("Noveno punto");
+    System.out.println(no*j*ta);
+    
+    int d=365 ;
+    int g=4 ;
+    int e=d*g;
+    System.out.println("Decimo Punto:"+e+" Days");
+    
+    int da=9 ;
+    int pu= 9*9 ;
+    int co= 9*9*9 ;
+    System.out.println("Onceavo punto ->Doble:"+pu);
+    System.out.println("Onceavo punto ->Triple:"+co)
+//Convertir kilómetros a metros y centímetros.
+    System.out.println("kilometros a metros");
+        int kil=5;
+        int mt=1000;
+    System.out.println(kil*mt);
+    System.out.println("metros a centimetros");
+        int metr=5000;
+        int cen=100;
+    System.out.println(metr*cen);
+
+
+        //Calcular el área y el perímetro de un cuadrado
+    System.out.println("area de un cuadrado");
+        int bsd=3;
+    System.out.println(bsd*bsd);
+    System.out.println("perimetro de un cuadrado");
+        int pe=4;
+        int ldo=3;
+    System.out.println(pe*ldo);
+
+
+        //Calcular el volumen de un cubo
+    System.out.println("volumen de un cubo");
+        int volu=4;
+        int resu=volu*volu*volu;
+    System.out.println(resu);
+
+
+        //Calcular el volumen de una esfera
+    System.out.println("volumen de una esfera");
+        double roro=4/3;
+        double pii=3.14;
+        double radi=12;
+        double elev=radi*radi*radi;
+    System.out.println(roro*pii*elev);
+
+
+        //Sumar los tres primeros números naturales
+    System.out.println("suma de los tres primeros numeros");
+        int one=1;
+        int two=2;
+        int theere=3;
+    System.out.println(one+two+theere);
+
+
+        //Calcular el descuento aplicado a una compra precio y % de descuento
+    System.out.println("descuento aplicado a una compra ,precio y % descuento");
+         double precio=300;
+         double porcentaje=0.30;
+    System.out.println(precio*porcentaje);
+    System.out.println( "Insertar precio final");
+    System.out.println(300-precio*porcentaje);
+
+
+        //Calcular la propina a dejar en un restaurante (total y % deseado)
+    System.out.println("propina a dejar en un restaurante total y 5 deseado");
+         double totalcuenta=45000;
+         double porcentajepropina=0.15 ;
+    System.out.println(totalcuenta*porcentajepropina);
+    System.out.println("Insertar valor final");
+    System.out.println(45000+totalcuenta*porcentajepropina)
