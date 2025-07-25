@@ -1,3 +1,4 @@
+public static void main(String[] args) {
         System.out.println("Imprima su nombre y edad");
      
         System.out.println(" Ingrese nombre");
