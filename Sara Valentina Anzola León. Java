@@ -1,0 +1,73 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+// The main method must be in a class named "Main".
+class Main {
+    public static void main(String[] args) {
+/primer punto
+        System.out.println("primer punto");
+        System.out.println("codigo que imprima las tablas de multiplicar del 1 10");
+        for (int i =  1; i < 11; i++){
+            
+        System.out.println("tabla del " + i + ":");
+        for (int y = 1; y < 13; y++){
+            System.out.println(i + "x" + y + "=" + (i*y));
+        }
+        }
+        
+        //segundo punto
+        System.out.println("segundo punto");
+        System.out.println("realizar un algoritmo que me indique si cierto año es bisiesto");
+            
+        int año=800;
+        if (año%100==0){
+            if (año%4==0){
+            if(año%400==0){
+                
+            }}}
+        
+            System.out.println("el año "+año+" si es bisiesto");
+        
+            //tercer punto
+            System.out.println("tercer punto");
+           System.out.println("realizar la serie fibonacci de los 20 primeros valores");
+    
+           int S= 0;
+           int L= 1;
+           
+           for (int i = 0; i < 20; i++){
+               System.out.println(S);
+               int siguiente = S + L;
+             S = L;
+             L = siguiente;
+             
+           }
+               
+        //cuarto punto 
+        System.out.println("cuarto punto");
+        System.out.println("dado un numero x imprima los multiplos de dicho numero hasta el limite y:");
+
+        long numerox=5;
+        long limite=100;
+        while (numerox<=limite){
+            System.out.println(numerox);
+            numerox+=numerox;
+            
+        }
+        //quinto punto
+        System.out.println("quinto punto");
+        System.out.println("la cantidad de numeros inpares que hay dentro del rango");
+        int primero = 1;
+        int ultimo = 31;
+        int impares = 0;
+
+        for (int i = primero; i <= ultimo; i++) {
+            if (i % 2 != 0){
+                impares++;
+                System.out.println(i + " es impar");
+            }
+        }
+        System.out.println("total de numeros impares entre " + primero + " y " + ultimo + ": " + impares);
+}
+}
