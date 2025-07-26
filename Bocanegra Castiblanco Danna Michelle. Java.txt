@@ -1,0 +1,94 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.mavenproject1;
+
+/**
+ *
+ * @author usuario
+ */
+public class Mavenproject1 {
+
+    public static void main(String[] args) {
+    
+         System.out.println("primer punto");
+    System.out.println("Tablas de multiplicar");
+    for(int i=1; i < 11; i++ )  {
+    System.out.println("TABLA DEL" + i + ":");
+    for (int y=1; y<11; y++) {
+        System.out.println(i+"*"+y+"="+i*y);
+       
+    }
+}  
+    
+    System.out.println("Segundo punto");
+    System.out.println("Diseñar un algoritmo que indique si cierto año es bisiesto");
+    
+    double añom= 2012.0;
+    double añon= 800.0;
+    int mu= 4;
+    int div1= 100;
+    int div2= 400;
+    
+    System.out.println("*Para saber si un año es bisiesto los resultados de las divisiones deben dar en numeros enteros, no se aceptan decimales, ya que se descarataria como año bisiesto");
+    System.out.println("Primer caso=" +añon/mu);
+    System.out.println("Segundo caso="+añon/div1);
+    System.out.println("Tercer caso="+añon/div2);
+    System.out.println("Segun los calculos anteriores, este año SI es bisiesto");
+    
+    System.out.println("Primer caso="+añom/mu);
+    System.out.println("Segundo caso="+añom/div1);
+    System.out.println("Tercer caso="+añom/div2);
+    System.out.println("Segun los calculos anteriores, este año NO es bisiesto");
+    
+    System.out.println("Tercer punto");
+    System.out.println("Realizar la serie Fibonacci de los 20 primeros valores");
+    int n=20;
+    int a=0 ,b=1 ;
+    for(int i=0; i<n; i++){
+    System.out.printf("%-5d",a);
+    if((i+1)%5==0){
+    System.out.println();
+             } 
+    int siguiente= a+b;
+    a=b;
+    b=siguiente;
+       
+    }   
+    System.out.println("Cuarto punto");
+    System.out.println("Dado un numero x imprimir todos los multiplos de dicho numero hasta el limite y");
+    int x= 3;
+    int limite= 108; //Hasta donde termina dicho numero
+    
+    if (x <= 0 || limite <= 0){
+        System.out.println("x y el limite deben ser mayores que cero");
+    } else {
+        System.out.println("Multiplos de" + x + "hasta" + limite + ":");
+        for (int m= x; m <= limite; m += x){ 
+            System.out.println(m);
+            }
+    }
+        
+    System.out.println("Quinto punto");
+    System.out.println("Realiza la cantidad de numeros impares que hay dentro de un rango");
+    
+     int inicio = 8;
+        int fin = 47;
+        int contadorImpares = 0; // Contar y mostrar los números impares dentro del rango
+        System.out.print("Números impares en el rango: ");
+        for (int i = inicio; i <= fin; i++) {
+            if (i % 2 != 0) {
+                System.out.print(i + " ");
+                contadorImpares++;   
+                }  
+            }
+    
+        
+        
+        
+    }
+  }          
+    
+ 
+
