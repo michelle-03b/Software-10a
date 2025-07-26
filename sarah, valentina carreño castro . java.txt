@@ -1,0 +1,61 @@
+  1   System.out.println("Tablas de multiplicar:");
+    //desarrollo
+    System.out.println();
+    for(int mel=1;mel<11;mel++){
+    System.out.println("tabla del "+mel+"=");
+    for(int nie=1;nie<13;nie++){
+       System.out.println(mel+"*"+nie+"="+(mel*nie));
+
+2    System.out.println("Indicador año bisiesto:");
+long año = 2000;
+
+if (año % 4 == 0) {
+    if (año % 100 == 0) {
+        if (año % 400 == 0) {
+            System.out.println("El año " + año + " es bisiesto.");
+        } else {
+            System.out.println("El año " + año + " no es bisiesto.");
+        }
+    } else {
+        System.out.println("El año " + año + " es bisiesto.");
+    }
+} else {
+    System.out.println("El año " + año + " no es bisiesto.");
+}
+            
+      }
+        }
+
+
+3 int lani=0;
+  int me=1;
+   for(int n=1;n<=20;n++){
+ int siguiente= me+lani;
+lani=me;
+me=siguiente;
+System.out.println(lani);
+}
+              }
+}
+4 long mi=5;
+long co = 100;
+while(mi<=co){
+System.out.println(mi);
+mi+=mi;
+ } 
+}
+}
+5int ad =20;
+int el=80;
+int impares=0;
+for(int a=ad;a<=el;el++) {
+    if(a%2=0){
+impares++;
+    }
+    
+
+impares++;
+System.out.println("cantidad de numeros impares de 20 a 80"+impares );{
+}
+}
+
