@@ -1,0 +1,87 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+// The main method must be in a class named "Main".
+class Main {
+    public static void main(String[] args) {
+        //primer punto
+        
+        System.out.println("Primer punto");
+     System.out.println("Realizar codigo que imprima las tabla de multiplicar del 1 al 10:");
+        for (int i =  1; i < 11; i++) {
+         
+            System.out.println("tabla del " + i + ":");
+               for (int y = 1; y < 11; y++) {
+                  System.out.println(i + "x" + y + "=" + (i*y)); 
+               }
+        
+         }
+
+        //segundo punto
+        System.out.println();
+        System.out.println("segundo punto");
+       System.out.println("Realizar un adgoritmo que me indiue si cierto año es biciesto:");
+
+        int año= 2400;
+            if (año % 4==0){
+            
+            if(año % 100==0){
+
+            if (año % 400==0){   
+
+        }   
+         }     
+            }    
+         System.out.println("el año:" +año+", si es bisiesto");
+
+        //tercer punto
+         System.out.println();
+        System.out.println("tercer punto");
+        System.out.println("Realizar la serie fibonacci de los 20 primeros valores:");
+        
+        
+        int m= 0;
+        int j= 1;
+        
+        for (int i = 0; i < 20; i++) {
+            System.out.println(m);
+            int siguiente = m + j;
+            m = j;
+            j = siguiente;
+         
+        }
+
+        //cuarto punto
+
+        System.out.println();
+        System.out.println("cuarto punto");
+        System.out.println("Dado un numero x imprima todos los multiplos de dicho numero hasta el limite y:");
+
+        long numerox=6;
+        long limite=100;
+          while (numerox<=limite) {
+              System.out.println(numerox);
+                   numerox+=numerox;
+              }
+              
+        //quinto punto
+
+        System.out.println();
+        System.out.println("quinto punto");
+        System.out.println("La cantidad de numeros impares que hay dentro de un rango");
+        
+        int inicio = 1;  
+        int fin = 25;    
+        int contadorImpares = 0;
+
+        for (int i = inicio; i <= fin; i++) {
+            if (i % 2 != 0) {
+                contadorImpares++;
+                System.out.println(i + " es impar");
+            }
+        }
+
+        System.out.println("Total de números impares entre " + inicio + " y " + fin + ": " + contadorImpares);
+    }
+}
