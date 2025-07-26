@@ -1,0 +1,75 @@
+
+
+public class Main {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        
+
+
+     System.out.println("Tablas de multiplicar");
+     for (int a= 2; a < 11 ; a++){
+        System.out.println("tabla del " + a);
+            for (int z= 2; z < 13 ; z++){
+                    System.out.println(z + "x" + a + "=" + (a*z));
+                  
+          }
+     }
+
+      
+        System.out.println("Año bisiesto");
+        
+       int año = 2010;
+        if (año % 4 == 0) {
+            if (año % 100 == 0) {
+                if (año % 400 == 0) {
+                    System.out.println("El año " + año + " es bisiesto.");
+                } else {
+                    System.out.println("El año " + año + " no es bisiesto.");
+                }
+            } else {
+                System.out.println("El año " + año + " es bisiesto.");
+            }
+        } else {
+            System.out.println("El año " + año + " no es bisiesto.");
+        }
+
+
+    System.out.println("Numero 20 Fibonacci");
+
+        int AN = 0;
+        int DR = 1;
+        
+        for (int RE=1; RE <= 20; RE++){
+            int siguiente = AN + DR;
+            AN = DR;            
+            DR = siguiente;
+                   
+        System.out.println(AN);
+                }
+
+        
+
+    System.out.println("Multiplos de 3 de cualquier numero");
+
+    int numeromultiplo = 3;
+        int numerolimite= 50;
+ 
+         for (int i = 0 ; i <= numerolimite; i+=numeromultiplo) { 
+            System.out.println(i);
+         }
+
+            System.out.println("Mostrar los numeros impares dentro de un rango");
+       int inicio = 3;
+        int fin = 69;
+         for (int i = inicio; i <= fin; i++) {
+          if (i % 2 != 0) {
+           System.out.println(i);
+    }
+}
+
+        
+                }
+}
